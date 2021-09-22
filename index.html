@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <select id="life-selector">
+    <option value="">自定义</option>
+    <option value="glider">滑翔机</option>
+    <option value="spaceship">太空船</option>
+    <option value="gliderGun">滑翔机枪</option>
+  </select>
+  <button id="stepButton">Step</button>
+  <button id="playButton">Play</button>
+  <span id="generationCounter">0</span>
+  <script src="./gameOfLife.ts"></script>
+</body>
+</html>
